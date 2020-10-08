@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <!--using-font-awesome-------->
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -39,5 +43,21 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+
+
+
+
+
+    	<!--JQuery--------------->
+	<script type="text/javascript" src="js/Jquery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.menu-icon').click(function(){
+			$('.menu-icon,.menu,.main-box,footer,.logo,.subscribe').toggleClass('active')
+		})
+	})
+	
+	</script>
   </body>
 </html>
